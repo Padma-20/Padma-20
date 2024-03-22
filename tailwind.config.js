@@ -5,7 +5,8 @@ module.exports = {
   './src/containers/**/*.{js,ts,jsx,tsx,mdx}',
   './src/app/**/*.{js,ts,jsx,tsx,mdx}',  ],
   theme: {
-    extend: { colors: {
+    extend: { 
+      colors: {
       bg: 'var(--color-bg)',
       'bg-secondary': 'var(--color-bg-secondary)',
       accent: 'var(--color-accent)',
